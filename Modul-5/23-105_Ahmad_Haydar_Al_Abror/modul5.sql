@@ -1,0 +1,6 @@
+CREATE TABLE supplier (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100) NOT NULL,
+    telp VARCHAR(15) NOT NULL,
+    alamat TEXT NOT NULL
+);
